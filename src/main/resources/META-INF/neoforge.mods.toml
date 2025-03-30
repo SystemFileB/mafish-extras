@@ -4,7 +4,7 @@ license="LGPLv3"
 
 [[mods]]
 modId="mafish_crafting"
-version="1.01"
+version="1.02"
 displayName="Mafish Crafting"
 displayURL="https://github.com/SystemFileB/mafish-extras/tree/mafish-crafting"
 credits="E"
@@ -22,13 +22,6 @@ versionRange="[21.1.65,)"
 ordering="AFTER"
 side="BOTH"
 
-[[dependencies.mafish_crafting]]
-modId="minecraft"
-type="required"
-versionRange="[1.21.1]"
-ordering="AFTER"
-side="BOTH"
-
 
 
 
@@ -38,5 +31,12 @@ modId="neomafishmod"
 type="required"
 versionRange="[0.0.5,)"
 ordering="NONE"
+side="BOTH"
+
+[[dependencies.mafish_crafting]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.1,)"
+ordering="AFTER"
 side="BOTH"
 # End of user code block dependencies configuration
